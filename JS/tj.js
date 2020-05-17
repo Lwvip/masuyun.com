@@ -1,4 +1,4 @@
-document.writeln("Copyright © 2011-2020 MaSuYun.Com Rights Reserved.  ICP备案许可证号：<a target=\'_blank\' href=\'http://beian.miit.gov.cn/\'>豫ICP备17016480号-6</a>");
+document.writeln("Copyright © 2011-2020 MaSuYun.Com Rights Reserved.  <br>ICP备案许可证号：<a target=\'_blank\' href=\'http://beian.miit.gov.cn/\'>豫ICP备17016480号-6</a> | <a target=\'_blank\' href=\'https://tongji.baidu.com/web/welcome/ico?s=2e6da918d5a49f58660153ca4ba2731b\'>网站统计</a>");
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
