@@ -13,4 +13,5 @@ var article = content.replace(/(check)/g, function ($0, $1) {
         "check": "null",
     } [$1];
 });
+  document.body.innerHTML=article;
 })
