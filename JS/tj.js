@@ -8,9 +8,10 @@ var _hmt = _hmt || [];
 })();
 $(function(){
 var content = document.body.innerHTML;
-var article = content.replace(/(check)/g, function ($0, $1) {
+var article = content.replace(/(check|页面不存在)/g, function ($0, $1) {
     return {
         "check": "null",
+      "页面不存在":"页面不存在,请联系QQ:99882620"
     } [$1];
 });
   document.body.innerHTML=article;
