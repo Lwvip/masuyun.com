@@ -6,3 +6,6 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+var content = document.body.innerHTML;
+var article = content.replace('check','');
+document.body.innerHTML=article;
