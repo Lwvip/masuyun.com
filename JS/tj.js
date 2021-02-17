@@ -6,13 +6,13 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-$(function(){
-var content = document.body.innerHTML;
-var article = content.replace(/(check|页面不存在)/g, function ($0, $1) {
-    return {
-        "check": "null",
-      "页面不存在":"页面不存在,请联系QQ:99882620"
-    } [$1];
-});
-  document.body.innerHTML=article;
-})
+// $(function(){
+// var content = document.body.innerHTML;
+// var article = content.replace(/(check|页面不存在)/g, function ($0, $1) {
+//     return {
+//         "check": "null",
+//       "页面不存在":"页面不存在,请联系QQ:99882620"
+//     } [$1];
+// });
+//   document.body.innerHTML=article;
+// })
